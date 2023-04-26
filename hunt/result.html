@@ -1,54 +1,71 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hunt Research Result</title>
+
+    <title>Hunt - Resultados</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <link rel="stylesheet" href="../Hunt/Buniteza.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../Hunt/Buniteza.css">
+    
+    <!-- Google Fonts -->
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@700&display=swap');
-      @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-  </style>
+        @import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
   </head>
+
   <body style="background-color: #22272E; color: white;">
 
-    <header class="ms-3 container">
-      <div class="row justify-content-start d-flex align-items-center">
-      <h1 class="text-start" style="font-family: 'Expletus Sans'; letter-spacing: 6px; font-size: 50px;" onselectstart="return false;">HUNT</h1> <i class="bi bi-gear" style="cursor: pointer;"></i><i class="bi bi-person-circle" style="cursor: pointer";></i>
-  
-      <div class="container">
-        <div class="row justify-content-start">
-            <div class="col-xxl-6 col-xl-6 col-lg-8 col-md-8">
-                <div class="rounded-pill border border-1 shadow" style="background-color: #2D333B; color: #CDD9E5; cursor: pointer;">
-                    
-                    <form action="result.html">
-                        <div class="col">
-                            <a href="result.html" class="text-light"><i class="bi bi-search ms-4"></i></a>
-                            <input type="text" class="p-3 ms-2 text-light" placeholder="Pesquise no Hunt" style="font-family: 'Roboto', sans-serif; font-size: 13pt; background-color: #2D333B; outline: none; width: 80%; border: none;">
-                            <i class="bi bi-mic ms-2 me-1"></i>
-                        </div>
-                      </div>
+    <header class="container-fluid mt-3">
+
+      <div class="d-flex justify-content-between align-items-center flex-wrap">
+
+        <div class="p-2">
+          <a href="index.html" class="text-decoration-none text-light"><h1 style="font-family: 'Expletus Sans'; letter-spacing: 6px; font-size: 48px;" onselectstart="return false;">HUNT</h1></a>
+        </div>
+
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 p-2">
+          <div class="rounded-pill border border-1 shadow" style="background-color: #2D333B; color: #CDD9E5; cursor: pointer;">
+            <form action="result.html">
+              <div class="col">
+                <a href="result.html" class="text-light"><i class="bi bi-search ps-4"></i></a>
+                <input type="text" class="p-3 text-light" placeholder="Pesquise no Hunt" value="Pomegranate" style="font-family: 'Roboto', sans-serif; font-size: 13pt; background-color: #2D333B; outline: none; width: 85%; border: none;">
+                <i class="bi bi-mic ps-2"></i>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="d-flex p-2">
+          <i class="bi bi-gear me-4" style="font-size: 25px; cursor: pointer;"></i>
+          <i class="bi bi-person-circle" style="font-size: 25px; cursor: pointer;"></i>
+        </div>
+
+      </div>
 
     </header>
     
     <div class="d-flex">
       <h6 class="ms-3 d-flex" style="font-family: 'Roboto', sans-serif; font-size: 13pt;">Resultados</h6>
         <div class="ms-3 rounded-start rounded-end" style="width: 60%; height: 80%; background-color: #2D333B;"><p class="ms-2">
-          <p class="ms-2" style="color: #8ABBFF; text-decoration: underline; cursor: pointer;">Wikipedia - Pomegranate</p> <p style="font-size: 8pt;">https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&...</p>
-          <p class="ms-2" style="color: #8ABBFF; text-decoration: underline; cursor: pointer;">Wikipedia - Pomegranate</p> <p style="font-size: 8pt;">https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&...</p>
-          <p class="ms-2" style="color: #8ABBFF; text-decoration: underline; cursor: pointer;">Wikipedia - Pomegranate</p> <p style="font-size: 8pt;">https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&...</p>
-          <p class="ms-2" style="color: #8ABBFF; text-decoration: underline; cursor: pointer;">Wikipedia - Pomegranate</p> <p style="font-size: 8pt;">https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&...</p>
-          <p class="ms-2" style="color: #8ABBFF; text-decoration: underline; cursor: pointer;">Wikipedia - Pomegranate</p> <p style="font-size: 8pt;">https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&...</p>
-          <p class="ms-2" style="color: #8ABBFF; text-decoration: underline; cursor: pointer;">Wikipedia - Pomegranate</p> <p style="font-size: 8pt;">https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&...</p>
+          <p class="ms-2" style="color: #8ABBFF; text-decoration: underline; cursor: pointer; font-weight: 600;">Wikipedia - Pomegranate</p> <p style="font-size: 9pt;">The pomegranate is one of the main fruits in Armenian culture (alongside apricots and grapes). Its juice is used with Armenian food, heritage, or wine. The ...</p>
+          <p class="ms-2" style="color: #8ABBFF; text-decoration: underline; cursor: pointer; font-weight: 600;">Wikipedia - Pomegranate</p> <p style="font-size: 9pt;">The pomegranate is one of the main fruits in Armenian culture (alongside apricots and grapes). Its juice is used with Armenian food, heritage, or wine. The ...</p>
+          <p class="ms-2" style="color: #8ABBFF; text-decoration: underline; cursor: pointer; font-weight: 600;">Wikipedia - Pomegranate</p> <p style="font-size: 9pt;">The pomegranate is one of the main fruits in Armenian culture (alongside apricots and grapes). Its juice is used with Armenian food, heritage, or wine. The ...</p>
+          <p class="ms-2" style="color: #8ABBFF; text-decoration: underline; cursor: pointer; font-weight: 600;">Wikipedia - Pomegranate</p> <p style="font-size: 9pt;">The pomegranate is one of the main fruits in Armenian culture (alongside apricots and grapes). Its juice is used with Armenian food, heritage, or wine. The ...</p>
+          <p class="ms-2" style="color: #8ABBFF; text-decoration: underline; cursor: pointer; font-weight: 600;">Wikipedia - Pomegranate</p> <p style="font-size: 9pt;">The pomegranate is one of the main fruits in Armenian culture (alongside apricots and grapes). Its juice is used with Armenian food, heritage, or wine. The ...</p>
+          <p class="ms-2" style="color: #8ABBFF; text-decoration: underline; cursor: pointer; font-weight: 600;">Wikipedia - Pomegranate</p> <p style="font-size: 9pt;">The pomegranate is one of the main fruits in Armenian culture (alongside apricots and grapes). Its juice is used with Armenian food, heritage, or wine. The ...</p>
         </div>
     </div>
   
   </div>
   <div class="d-flex">
-    <div><h6 class="ms-3">imagens</h6></div>
-      <div class="ms-3" style="width: 40%; height: 60%; background-color: #2D333B;"">
+    <div><h6 class="ms-3" style="font-family: 'Roboto', sans-serif; font-size: 13pt;">Imagens</h6></div>
+      <div class="ms-3" style="width: 40%; height: 60%; background-color: #2D333B;">
         <div title="imagens" style="border:1px solid #396281; padding: 1.5%; margin: 2%; margin-top: 2%;"> 
           <img class="" style="width: 30%;" src="img/pomegranate1.jpg" alt="" >
           <img class="align-self-end" style="width: 30%;" src="img/pomegranate2.jpg" alt="" >
@@ -57,6 +74,10 @@
         <p class="ms-2" style="width: 40%; height: 50%; font-family: 'Roboto', sans-serif; font-size: 10pt; ">The pomegranate is the fruit of the pomegranate tree, common in the eastern Mediterranean and middle east where the pulp is used for the preparation of appetizers, dessert or sometimes in alcoholic beverage. Its interior is subdivided by thin films, which form small seeds possessing an edible pulp.</p>
       </div>
     </div>
+
+    <footer class="container-fluid my-5 text-center text-light">
+      <p>&copy; Desenvolvido por Agnaldo e Maria Luíza</p>
+    </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   </body>
