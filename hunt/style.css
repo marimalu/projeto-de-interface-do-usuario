@@ -2,6 +2,10 @@
     color: #CDD9E5;
 }
 
+* {
+    text-decoration: none;
+}
+
 body {
     background-color: #22272E;
     font-family: 'Roboto', sans-serif;
@@ -24,4 +28,41 @@ h1 {
 
 #add-shortcut-box:hover {
     background-color: #444c58;
+}
+
+#img-result img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+#img-result img:hover {
+    transform: scale(1.1);
+    transition: 0.2s all ease-in-out;
+}
+
+#img-result img:active {
+    box-shadow: 0px 5px 2px 2px #1013166c;
+}
+
+figure i {
+    color: white;
+    font-size: 30pt;
+}
+
+figure i:hover {
+    color: #d7d7d7;
+}
+
+figure i:active {
+    color: #a0a0a0;
+    transition: 0.2s;
+}
+
+@media (max-width: 708px) {
+    #img-result img {
+        width: 117px;
+        height: 110px;
+    }
 }
