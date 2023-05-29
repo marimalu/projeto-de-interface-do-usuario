@@ -60,6 +60,43 @@ figure i:active {
     transition: 0.2s;
 }
 
+#accordion-title {
+    background-color: #22272E;
+    color: white;
+    border-top: 1px solid #acaeb0;
+}
+
+.accordion-item {
+    border-top: 1px solid #acaeb0;
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: brightness(0%) invert(100%);
+}
+
+.accordion-button::after {
+    filter: brightness(0%) invert(100%);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.page-link {
+    background-color: #2D333B;
+    color: white;
+    font-weight: bold;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: #ffffff;
+    background-color: #38618C;
+}
+
 @media (max-width: 708px) {
     #img-result img {
         width: 117px;
