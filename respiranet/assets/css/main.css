@@ -131,7 +131,7 @@ section {
   height: 90px;
   transition: all 0.5s;
   z-index: 997;
-  background: #FA8072;
+  background: #EFF2F1;
 }
 
 .header.sticked {
@@ -139,14 +139,14 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 35px;
   margin-right: 6px;
 }
 
 .header .logo h1 {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 700;
-  color: var(--color-default);
+  color: #2894b4;
   font-family: var(--font-primary);
 }
 
