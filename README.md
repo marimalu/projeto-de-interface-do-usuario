@@ -6,5 +6,5 @@ Repositório dedicado à disciplina de Projeto de Interface do Usuário com os c
 Site de busca com a página principal de pesquisa e outra de resultados. Desenvolvido em HTML5 e CSS3 com o suporte do framework Bootstrap 5.
 
 
-### Bio-Respiratório
+### Respiranet
 Site voltado para o assunto da matéria de biologia sobre sistema respiratório, de fisiologia humana. Desenvolvido em HTML5, CSS3 e com um template de Bootstrap 5.
