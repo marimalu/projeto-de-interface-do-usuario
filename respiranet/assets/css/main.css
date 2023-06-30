@@ -624,7 +624,7 @@ section {
 }
 
 .img-bg {
-  height: 500px;
+  min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
