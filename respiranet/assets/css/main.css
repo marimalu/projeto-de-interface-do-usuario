@@ -64,6 +64,19 @@ section {
   margin-bottom: 0;
 }
 
+#section-abstract {
+  max-width: 600px;
+}
+
+#section-abstract h2 {
+  font-weight: 700;
+}
+
+#section-abstract p {
+  text-align: justify;
+  font-size: 13pt;
+}
+
 /*--------------------------------------------------------------
 # Scroll top button
 --------------------------------------------------------------*/
