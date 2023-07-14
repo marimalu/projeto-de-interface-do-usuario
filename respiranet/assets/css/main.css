@@ -70,11 +70,12 @@ section {
 
 #section-abstract h2 {
   font-weight: 700;
+  color: #2894b4;
 }
 
 #section-abstract p {
   text-align: justify;
-  font-size: 13pt;
+  font-size: 14pt;
 }
 
 /*--------------------------------------------------------------
@@ -466,6 +467,11 @@ section {
 /*--------------------------------------------------------------
 # Posts
 --------------------------------------------------------------*/
+
+#post-img {
+  width: 800px;
+}
+
 .post-entry-1 {
   margin-bottom: 30px;
 }
@@ -807,8 +813,9 @@ section {
   letter-spacing: 0.1rem;
   font-size: 14px;
   font-weight: 700;
+  color: #2894b4;
   margin-bottom: 30px;
-  border-bottom: 2px solid var(--color-black);
+  border-bottom: 2px solid #2894b4;
 }
 
 .category-title {
@@ -855,7 +862,7 @@ section {
 
 /* custom tab nav on sidebar */
 .aside-block {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .aside-block .custom-tab-nav .nav-item {
@@ -908,6 +915,7 @@ section {
 
 .aside-links li a {
   display: block;
+  font-size: 13pt;
   color: rgba(var(--color-black-rgb), 0.7);
 }
 
