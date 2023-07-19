@@ -772,6 +772,11 @@ section {
   text-align: justify;
 }
 
+.single-post li a {
+  color: #2894b4;
+  text-decoration: underline;
+}
+
 #post-reference h5 {
   margin-bottom: 18px;
 }
