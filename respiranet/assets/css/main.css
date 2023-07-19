@@ -767,6 +767,17 @@ section {
 .post-content {
   padding-left: 10%;
   padding-right: 10%;
+  font-size: 13pt;
+  font-family: 'Open Sans';
+  text-align: justify;
+}
+
+#post-reference h5 {
+  margin-bottom: 18px;
+}
+
+#post-reference p {
+  font-size: 12pt;
 }
 
 @media (max-width: 768px) {
