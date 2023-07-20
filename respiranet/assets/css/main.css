@@ -777,6 +777,10 @@ section {
   text-decoration: underline;
 }
 
+.single-post h4 {
+  margin-top: 25px;
+}
+
 #post-reference h5 {
   margin-bottom: 18px;
 }
@@ -805,7 +809,7 @@ section {
 .post-content figure {
   position: relative;
   left: 52%;
-  min-width: 990px;
+  min-width: 700px;
   transform: translateX(-50%);
 }
 
