@@ -1339,3 +1339,8 @@ section {
 .footer .credits a {
   color: var(--color-white);
 }
+
+#about-content h2 {
+  color: #2894b4;
+  font-weight: bold;
+}
