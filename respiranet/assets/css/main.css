@@ -1238,7 +1238,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   overflow: hidden;
-  background: rgba(var(--color-black-rgb), 0.9);
+  background: #2994b2;
   font-size: 16px;
   color: rgba(var(--color-white-rgb), 0.7);
 }
@@ -1308,7 +1308,7 @@ section {
 }
 
 .footer .footer-legal {
-  background: var(--color-black);
+  background: #2994b2;
   padding: 40px 0;
 }
 
@@ -1341,6 +1341,6 @@ section {
 }
 
 #about-content h2 {
-  color: #2894b4;
+  color: #2994b2;
   font-weight: bold;
 }
