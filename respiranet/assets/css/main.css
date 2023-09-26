@@ -70,7 +70,7 @@ section {
 
 #section-abstract h2 {
   font-weight: 700;
-  color: #2894b4;
+  color: #2994b2;
 }
 
 #section-abstract p {
@@ -115,7 +115,7 @@ section {
 # Page title
 --------------------------------------------------------------*/
 .page-title {
-  font-size: 70px;
+  font-size: 65px;
   color: var(--color-black);
 }
 
@@ -160,7 +160,7 @@ section {
 .header .logo h1 {
   font-size: 32px;
   font-weight: 700;
-  color: #2894b4;
+  color: #2994b2;
   font-family: var(--font-primary);
 }
 
@@ -772,8 +772,12 @@ section {
   text-align: justify;
 }
 
+.single-post h1 {
+  color: #2994b2;
+}
+
 .single-post a {
-  color: #2894b4;
+  color: #2994b2;
   text-decoration: underline;
 }
 
@@ -833,9 +837,9 @@ section {
   letter-spacing: 0.1rem;
   font-size: 14px;
   font-weight: 700;
-  color: #2894b4;
+  color: #2994b2;
   margin-bottom: 30px;
-  border-bottom: 2px solid #2894b4;
+  border-bottom: 2px solid #2994b2;
 }
 
 .category-title {
